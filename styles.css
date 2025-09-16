@@ -7,8 +7,8 @@
 
 :root {
     /* Colors based on original Grow Clicks dark theme */
-    --primary-color: #7c3aed;
-    --primary-dark: #6d28d9;
+    --primary-color: #dc2626;
+    --primary-dark: #b91c1c;
     --secondary-color: #1f1f23;
     --background-dark: #0f0f11;
     --background-light: #1a1a1e;
@@ -17,7 +17,7 @@
     --text-muted: #9ca3af;
     --accent-color: #f59e0b;
     --border-color: #374151;
-    --gradient-primary: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+    --gradient-primary: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
     --gradient-dark: linear-gradient(135deg, #1f1f23 0%, #0f0f11 100%);
     
     /* Typography */
@@ -615,6 +615,7 @@ body {
     
     .hero-cta {
         flex-direction: row;
+        justify-content: center;
     }
     
     .stats-grid {
