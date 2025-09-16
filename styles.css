@@ -177,6 +177,14 @@ body {
     text-align: center;
 }
 
+.logo-footer {
+    height: 20px;
+    width: auto;
+    display: flex;
+    text-align: center;
+    margin: 10px 0;
+} 
+
 .nav-menu {
     display: none;
     list-style: none;
